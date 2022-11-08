@@ -7,7 +7,7 @@ import Search from '../../assets/Search';
 import Arrow from '../../assets/Arrow';
 import SellButton from '../../assets/SellButton';
 import SellButtonPlus from '../../assets/SellButtonPlus';
-import { AuthContext, FirebaseContext } from '../../store/FirebaseContext';
+import { AuthContext, FirebaseContext } from '../../store/Context';
 function Header() {
   const history = useHistory()
   const {user} = useContext(AuthContext)

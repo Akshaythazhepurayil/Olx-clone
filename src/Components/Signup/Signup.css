@@ -1,3 +1,6 @@
+*{
+  cursor: pointer;
+}
 .signupParentDiv {
     border: 1px solid black;
     width: max-content;
